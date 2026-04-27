@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch:'main',
-                    url:''
+                    url:'https://github.com/Ankith0505/Maven-project.git'
             }
         }
 
